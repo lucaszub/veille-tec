@@ -11,7 +11,7 @@ app = func.FunctionApp()
 def Youtubefunction(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
-    # Récupérer la clé API depuis Key Vault test
+    # Récupérer la clé API depuis Key Vault 
     youtube_key = get_youtube_api_key()
 
     # Créer l'objet de service YouTube
