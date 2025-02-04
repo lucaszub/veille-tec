@@ -1,0 +1,11 @@
+# Do not include azure-functions-worker in this file
+# The Python Worker is managed by the Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+google-api-python-client==2.45.0
+google-auth==2.16.0
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.4.6
+azure-identity==1.16.1
+azure-keyvault-secrets==4.9.0
